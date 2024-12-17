@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>CodeChallenge 2024</h1>
+    </header>   
+
+    <main id="rata">
+        <h1>Rata Rat tinggi badan siswa</h1>
+        <form onsubmit="return myFunction()">
+            <div>
+               <div>
+                <label for="">siswa1</label>
+                <input type="number" id="siswa1">
+               </div>
+               <div>
+                <label for="">siswa2</label>
+                <input type="number" id="siswa2">
+               </div>
+               <div>
+                <label for="">siswa3</label>
+                <input type="number" id="siswa3">
+               </div>
+               <div>
+                <label for="">siswa4</label>
+                <input type="number" id="siswa4">
+               </div>
+               <div>
+                <label for="">siswa5</label>
+                <input type="number" id="siswa5">
+               </div>
+
+               <button id="buttons" value="submit" type="submit">hitung</button>
+            </div>
+            <div id="kotakcilik">hasil</div>
+        </form>
+
+
+    </main>
+
+    <footer>
+        <h4>Copyright 2024</h4>
+        <div class="foot-left">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </footer>
+
+    <script>
+        window.onbeforeunload = function () {return false;}
+function myFunction() {
+    var siswa1=Number(document.getElementById('siswa1').value);
+    var siswa2=Number(document.getElementById('siswa2').value);
+    var siswa3=Number(document.getElementById('siswa3').value);
+    var siswa4=Number(document.getElementById('siswa4').value);
+    var siswa5=Number(document.getElementById('siswa5').value);
+
+    var rata=(siswa1+siswa2+siswa3+siswa4+siswa5)/5;
+    document.getElementById('kotakcilik').innerText = rata;
+
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+header{
+   background-color: yellow;
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(0, 0, 0, 0.576);
+    padding: 0 40px; 
+    font-size: 1.6vb;
+    a{font-size: 2.2vb;text-decoration: none;font-weight:bolder; margin: 0 0.5vb;}
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    background-color: yellow;
+    border: 2px solid rgba(0, 0, 0, 0.576);
+    div.foot-left{
+        display: flex;
+        div.circle{
+        margin: 2%;
+        background-color: blue;
+        border-radius: 50%;
+        width: 3vb;
+        height: 3vb;
+        
+    }}
+}
+
+main{  
+    text-align: center;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.576);
+    height: 83vh;}
+
+
+
+
+main#index-main{
+    div.top-main{
+        display: flex;
+        align-items: baseline;
+        text-align: start;
+    }
+    div.middle-main{
+        display: flex;
+        justify-content: end;
+        margin-left: 100px;
+        text-align: start;
+    }
+    div.lower-main{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        width: 12vb;
+        height: 4vb;
+    }
+
+    div.square{
+        margin: 1vw;
+        background-color: seagreen;
+        width: 20vb;
+        height: 18vb;
+    }
+    p{font-size: 1.5vb;}
+}
+
+
+main#pendaftaran-main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-size: 2.5vb;
+   
+    div.outform{margin:10vb;justify-content: center;align-items: center;display: flex;}
+
+    form{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+main#faq-main{
+    font-size: 2vb;
+    h6.A{color: green;}
+    form{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        div{display: flex;justify-content: space-evenly;}
+    }
+}
+
+main#rata{
+   font-size: 2vb;
+   justify-content: baseline;
+   text-align: center;
+    form{align-content: center;}
+   div#kotakcilik{  
+    border:2px solid black;
+    height: 3vb;width: 8vb;
+    margin: 1vb 48%; }
+}
